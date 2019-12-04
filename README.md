@@ -10,10 +10,17 @@ A system integration project to drive Carla, the Udacity self-driving car, aroun
 
 As this was an individual submission, code testing was performed only on the simulator.
 
+[//]: # (Image References)
+
+[image1]: ./Writeup_IV/Carla_Architecture.png "Carla_Architecture"
+
+
 #
 Carla Architecture
 
 Carla is a Lincoln MKZ vehicle, modified into a self-driving car. Carla's self-driving system is broken down into four major sub-systems: Sensors, Perception, Planning, and Control
+
+![][image1]
 
 The following is a system architecture diagram showing the ROS nodes and topics used in the project. You can refer to the diagram throughout the project as needed. The ROS nodes and topics shown in the diagram are described briefly in the Code Structure section below, and more detail is provided for each node in later classroom concepts of this lesson.
 
