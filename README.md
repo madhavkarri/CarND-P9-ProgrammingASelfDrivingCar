@@ -24,7 +24,7 @@ Carla is a Lincoln MKZ vehicle, modified into a self-driving car. Carla's self-d
 
 Sensors
 
-Sensors are hardware components that gathers data to observe and understand the physical world and its surroundings. Most common types of autonomous vehicle sensors are (but not limited to): Cameras, LIDAR, GPS, Radar, and IMU (Inertial Measuremnt Unit)
+Sensors are hardware components that gathers data to observe and understand the physical world and its surroundings. Most common types of autonomous vehicle sensors are (but not limited to): Cameras, LIDAR, GPS, Radar, Ultrasonic, and IMU (Inertial Measuremnt Unit)
 
 Perception
 
