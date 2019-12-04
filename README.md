@@ -28,10 +28,15 @@ Sensors are hardware components that gathers data to observe and understand the 
 
 Perception
 
-Consists of software to process the sensor data. Components in the perception subsystem combine sensor data into meaningful information. Perception can be further classified into Detection and Localization
+Consists of software to process the sensor data into structure data, to be later used in path planning and control. This is where most of the analysis and understanding of the vehicles environemnt and location are performed. Perception can be further classified into Detection and Localization
 
 Detection
 
+Detection susbsystem is responsible for understanding the surrounding environment. It includes software components/piplines such as: lane detection, traffic sign, traffic light detection and classification, object detection and tracking, and free space detection
+
+Localization
+
+Localization subsystem is responsible for using sensor and map data to determine the vehicle's precise location
 
 The following is a system architecture diagram showing the ROS nodes and topics used in the project. You can refer to the diagram throughout the project as needed. The ROS nodes and topics shown in the diagram are described briefly in the Code Structure section below, and more detail is provided for each node in later classroom concepts of this lesson.
 
