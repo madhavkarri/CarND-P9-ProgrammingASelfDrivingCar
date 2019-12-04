@@ -18,7 +18,7 @@ As this was an individual submission, code testing was performed only on the sim
 #
 Carla Architecture
 
-Carla is a Lincoln MKZ vehicle, modified into a self-driving car. Carla's self-driving system is broken down into four major sub-systems: Sensors, Perception, Planning, and Control
+Carla is a Lincoln MKZ vehicle, modified into a self-driving car. Carla's self-driving system can be sub-dvidied into four major sub-systems: Sensors, Perception, Planning, and Control
 
 ![][image1]
 
