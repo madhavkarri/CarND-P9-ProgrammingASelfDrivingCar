@@ -32,18 +32,25 @@ Consists of software to process the sensor data into structure data, to be later
 
 Detection
 
-- Detection susbsystem is responsible for understanding the surrounding environment. 
+- Detection susbsystem is responsible for understanding the surrounding environment
 - It includes software components/piplines such as: 
   - Lane detection 
-  -- Traffic sign detection and classification
-  -- Traffic light detection and classification
-  -- Object detection and tracking
-  -- Free space detection, etc
+  - Traffic sign detection and classification
+  - Traffic light detection and classification
+  - Object detection and tracking
+  - Free space detection, etc
 
 Localization
 
 - Localization subsystem is responsible for using sensor and map data to determine the vehicle's precise location, with an accuracy of less than 10 cm
 - 
+
+Planning
+
+After the sensor data has been processed by the perception sub-system, the vehicle can use the processed data to plan its path. The planning sub-system can be further classified into:
+- Route Planning: responsible for high level decisions about the path of the vehicle between two points on a map. Analogous to route planning feature found on smartphones or in-car navigation systems
+- Prediction: estimates which maneuver other objects on the road might take. For example, if the vehicle detects the presence of another vehicle in its surroundings, the prediction component would estimate its future trajectory
+
 
 The following is a system architecture diagram showing the ROS nodes and topics used in the project. You can refer to the diagram throughout the project as needed. The ROS nodes and topics shown in the diagram are described briefly in the Code Structure section below, and more detail is provided for each node in later classroom concepts of this lesson.
 
