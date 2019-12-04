@@ -34,7 +34,7 @@ Detection
 
 - Detection susbsystem is responsible for understanding the surrounding environment. 
 - It includes software components/piplines such as: 
-  -- Lane detection 
+  - Lane detection 
   -- Traffic sign detection and classification
   -- Traffic light detection and classification
   -- Object detection and tracking
@@ -42,7 +42,7 @@ Detection
 
 Localization
 
-- Localization subsystem is responsible for using sensor and map data to determine the vehicle's precise location with an accuracy of less than 10 cm
+- Localization subsystem is responsible for using sensor and map data to determine the vehicle's precise location, with an accuracy of less than 10 cm
 - 
 
 The following is a system architecture diagram showing the ROS nodes and topics used in the project. You can refer to the diagram throughout the project as needed. The ROS nodes and topics shown in the diagram are described briefly in the Code Structure section below, and more detail is provided for each node in later classroom concepts of this lesson.
