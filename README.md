@@ -22,6 +22,17 @@ Carla is a Lincoln MKZ vehicle, modified into a self-driving car. Carla's self-d
 
 ![][image1]
 
+Sensors
+
+Sensors are hardware components that gathers data to observe and understand the physical world and its surroundings. Most common types of autonomous vehicle sensors are (but not limited to): Cameras, LIDAR, GPS, Radar, and IMU (Inertial Measuremnt Unit)
+
+Perception
+
+Consists of software to process the sensor data. Components in the perception subsystem combine sensor data into meaningful information. Perception can be further classified into Detection and Localization
+
+Detection
+
+
 The following is a system architecture diagram showing the ROS nodes and topics used in the project. You can refer to the diagram throughout the project as needed. The ROS nodes and topics shown in the diagram are described briefly in the Code Structure section below, and more detail is provided for each node in later classroom concepts of this lesson.
 
 #
