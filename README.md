@@ -14,8 +14,9 @@ As this was an individual submission, code testing was performed only on the sim
 [image1]: ./Writeup_IV/Carla_Architecture.png "Carla_Architecture"
 [image2]: ./Writeup_IV/ROS_Graph.jpg "ROS_Graph"
 [image3]: ./Writeup_IV/ROSNodes_Architecture.png "ROSNodes_Architecture"
-
-
+[image4]: ./Writeup_IV/WaypointUpdater_Node.png "WaypointUpdater_Node"
+[image5]: ./Writeup_IV/TLD_Node.png "TLD_Node"
+[image6]: ./Writeup_IV/DBW_Node.png "DBW_Node"
 
 
 #
@@ -81,6 +82,8 @@ Waypoint Updater:
 
 This package contains the waypoint updater node: `waypoint_updater.py`. The purpose of this node is to update the target velocity property of each waypoint based on traffic light and obstacle detection data. This node subscribes to the `/base_waypoints`, `/current_pose`, `/obstacle_waypoint`, and `/traffic_waypoint` topics, and publishes a list of waypoints ahead of the car with target velocities to the `/final_waypoints` topic
 
+![][image4]
+
 Traffic Light Detection:
 
 This package contains the traffic light detection node: `tl_detector.py`. This node takes in data from the `/image_color`, `/current_pose`, and `/base_waypoints` topics and publishes the locations to stop for red traffic lights to the `/traffic_waypoint topic`.
@@ -89,6 +92,11 @@ The `/current_pose` topic provides the vehicle's current position, and `/base_wa
 
 Built both traffic light detection node and a traffic light classification node. Traffic light detection was implemented in `tl_detector.py` and traffic light classification was implemented at `../tl_detector/light_classification_model/tl_classfier.py`.
 
+![][image5]
+
+Drive-By-Wire (DBW) Node:
+
+![][image6]
 
 
 #
