@@ -13,6 +13,7 @@ As this was an individual submission, code testing was performed only on the sim
 [//]: # (Image References)
 
 [image1]: ./Writeup_IV/Carla_Architecture.png "Carla_Architecture"
+[image2]: ./Writeup_IV/ROS_Graph.jpg "ROS_Graph"
 
 
 #
@@ -60,11 +61,13 @@ Control
 Contains software components  to esnure vehicle follows the path specified by the planning susbsytem. Control component takes trajectory outputs and processes them with a controller algorithm like PID or MPC (Model based predictive control) to adjust the control inputs for smooth operation of the vehicle. The control subsystem sends acceleration, braking, steering commands to the vehicle. This completes the chain of information from the sensors to actuation and allows the vehicle to drive
 
 #
-Carla Architecture
+ROS Architecture
 
-The ROS Architecture consists of different nodes (written in Python or C++) that communicate with each other via ROS messages. The nodes and their communication with each other are depicted in the picture below. The ovally outlined text boxes inside rectangular boxes represent the ROS nodes while the simple rectangular boxes represent the topics that are subscribed or published to. 
+The ROS Architecture consists of nodes (written in Python or C++), that communicate with each other via ROS messages. The nodes and their communication with each other are shown below. Oval text boxes inside rectangular boxes represent the ROS nodes and rectangular boxes represent the ROS topics that are subscribed or published to. The direction of arrows indicates direction of communication.
 
-The following is a system architecture diagram showing the ROS nodes and topics used in the project. You can refer to the diagram throughout the project as needed. The ROS nodes and topics shown in the diagram are described briefly in the Code Structure section below, and more detail is provided for each node in later classroom concepts of this lesson.
+![][image2]
+
+The primary control node from the above rqt-graph is the styx_server. It links the simulator and ROS by sending the car's state and surroundings (vehicle current pose/position, velocity, front camera images, etc.) and receiving control input (steering, braking, throttle). The remainder of the nodes can be associated with either of the three tasks: Perception, Planning, and Control.
 
 #
 The Project
