@@ -13,6 +13,9 @@ As this was an individual submission, code testing was performed only on the sim
 
 [image1]: ./Writeup_IV/Carla_Architecture.png "Carla_Architecture"
 [image2]: ./Writeup_IV/ROS_Graph.jpg "ROS_Graph"
+[image3]: ./Writeup_IV/ROSNodes_Architecture.png "ROSNodes_Architecture"
+
+
 
 
 #
@@ -68,6 +71,22 @@ The ROS Architecture consists of nodes (written in Python or C++), that communic
 
 The primary control node from the above rqt-graph is the styx_server. It links the simulator and ROS by sending the car's state and surroundings (vehicle current pose/position, velocity, front camera images, etc.) and receiving control input (steering, braking, throttle). The remainder of the nodes can be associated with either of the three tasks: Perception, Planning, and Control.
 
+Node Design
+
+![][image3]
+
+In this project the following packages have been built or modified to navigate the vehicle around the test track.
+
+Traffic Light Detection: 
+
+This package contains the traffic light detection node: tl_detector.py. This node takes in data from the /image_color, /current_pose, and /base_waypoints topics and publishes the locations to stop for red traffic lights to the /traffic_waypoint topic.
+
+The /current_pose topic provides the vehicle's current position, and /base_waypoints provides a complete list of waypoints the car will be following.
+
+Traffic light detection implemented in '''tl_detector.py''' and traffic light classification implemented at ../tl_detector/light_classification_model/tl_classfier.py.
+
+
+
 #
 The Project
 
@@ -79,8 +98,3 @@ Traffic Light Detection: This can be split into 2 parts:
 Detection: Detect the traffic light and its color from the /image_color. The topic /vehicle/traffic_lights contains the exact location and status of all traffic lights in simulator, so you can test your output.
 Waypoint publishing: Once you have correctly identified the traffic light and determined its position, you can convert it to a waypoint index and publish it.
 Waypoint Updater (Full): Use /traffic_waypoint to change the waypoint target velocities before publishing to /final_waypoints. Your car should now stop at red traffic lights and move when they are green.
-
-* Build a PID controller and tune the PID hyperparameters
-* Test the tuned PID controller on the vehicle/race-track simulator
-* Vehicle must successfully drive a lap around the track
-* There is no minimum vehicle speed criteria. However, maximize vehicle speed by tuning the PID parameters
