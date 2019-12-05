@@ -81,9 +81,9 @@ Traffic Light Detection:
 
 This package contains the traffic light detection node: `tl_detector.py`. This node takes in data from the `/image_color`, `/current_pose`, and `/base_waypoints` topics and publishes the locations to stop for red traffic lights to the `/traffic_waypoint topic`.
 
-The `/current_pose` topic provides the vehicle's current position, and /base_waypoints provides a complete list of waypoints the car will be following.
+The `/current_pose` topic provides the vehicle's current position, and `/base_waypoints` provides a complete list of waypoints the car will be following.
 
-Traffic light detection was implemented in `tl_detector.py` and traffic light classification was implemented at `../tl_detector/light_classification_model/tl_classfier.py`.
+Built both traffic light detection node and a traffic light classification node. Traffic light detection was implemented in `tl_detector.py` and traffic light classification was implemented at `../tl_detector/light_classification_model/tl_classfier.py`.
 
 
 
