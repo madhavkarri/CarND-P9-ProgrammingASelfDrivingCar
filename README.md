@@ -49,12 +49,15 @@ Planning
 After the sensor data has been processed by the perception sub-system, the vehicle can use the processed data to plan its path. The planning sub-system can be further classified into:
 - Route Planning: responsible for high level path of the vehicle between two points on a map. Analogous to route planning feature found on smartphones or in-car navigation systems
 - Prediction: identifies which maneuver other objects on the road might take. For example, if vehicle detects presence of another vehicle in its surroundings, the prediction component would estimate its future trajectory\
-- Behavior Planning: determines which maneuver the vehicle should take. For example: stopping at a traffic light or intersection, changing lanes, accelerating, or decelerating are various maneuvers issued by this planning component.
+- Behavior Planning: determines which maneuver the vehicle should take. For example: stopping at a traffic light or intersection, changing lanes, accelerating, or braking are various maneuvers issued by this planning component.
 
 Trajectory Planning
 
 Based on the desired immediate behavior, the trajectory planning component will determine which trajectory is best for executing this behavior.
 
+Control
+
+Contains software components  to esnure vehicle follows the path specified by the planning susbsytem. Control component takes trajectory outputs and processes them with a controller algorithm like PID or MPC (Model based predictive control) to adjust the control inputs for smooth operation of the vehicle. The control subsystem sends acceleration, braking, steering commands to the vehicle. This completes the chain of information from the sensors to actuation and allows the vehicle to driv e
 
 The following is a system architecture diagram showing the ROS nodes and topics used in the project. You can refer to the diagram throughout the project as needed. The ROS nodes and topics shown in the diagram are described briefly in the Code Structure section below, and more detail is provided for each node in later classroom concepts of this lesson.
 
