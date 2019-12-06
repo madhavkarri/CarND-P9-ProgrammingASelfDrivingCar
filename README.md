@@ -148,7 +148,7 @@ The Code
   - Implemented storing images within threshold distance from traffic light stop line
   - Image capture using optimum distance (not too far) will increase accuracy/precision of Classifier
   - Classification using optimum distance will lower the workload on the Classifier and consequently any lagging issues between the vehicle simulator and ROS
-  - The code: [Link1:github]5https://github.com/madhavkarri/CarND-P9-ProgrammingASelfDrivingCar/tree/master/src_vers/src_v5) and [Link2:gdrive](https://drive.google.com/drive/folders/13XjIzRLsiHBqiP84mFTpSlHdHY_OBMcC)
+  - The code: [Link1:github](https://github.com/madhavkarri/CarND-P9-ProgrammingASelfDrivingCar/tree/master/src_vers/src_v5) and [Link2:gdrive](https://drive.google.com/drive/folders/13XjIzRLsiHBqiP84mFTpSlHdHY_OBMcC)
 
 - src_v6: baseline code src_v5
   - Using Udacity provided code, the vehicle stops after finishing one lap
