@@ -170,4 +170,4 @@ The Code
   
 Notes: 
 - After launching the ROS and simulator, TensorFlow initialization takes about 4 mins before it can start performing classifcation. Therefore to overcome this issue dbw_enabled flag is not enabled or set to true until 4 mins. Prolonged TensorFlow intilization is an issue for some TensorFlow versions. However, have not spent time to address this issue.
-- Link1: github and Link2: Google Drive. Large files are not supported on Github. Even if using git-lfs there is an git-lfs account limit of 1 GB.
+- Link1: github and Link2: Google Drive. Large files are not supported on Github. Even if using git-lfs there is a git-lfs account limit of 1 GB.
