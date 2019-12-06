@@ -163,7 +163,7 @@ The Code
   - Both the Unity simulator and ROS running on Ubuntu 16.04
   - System Specifications: Intel Core i9-9900K Processor, NVIDIA GeForce RTX 2080 Super 8 GB, and 32 GB RAM
   - Activated TensorFlow GPU (version: 1.3.0)
-  - Number of waypoints: 50
+  - Number of published waypoints: 50
   - Camera publishing rate: 4 Hz
   - Final output video (Youtube): [Link](https://youtu.be/41H2Aetl3Uo)
   - The code: [Link1:github](https://github.com/madhavkarri/CarND-P9-ProgrammingASelfDrivingCar/tree/master/src_vers/src) and [Link2:gdrive](https://drive.google.com/drive/folders/1sVP7IoVzbNEzV9-uj_2On0IpJgQv9iDG)
