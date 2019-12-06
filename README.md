@@ -161,7 +161,6 @@ The Code
 
 # 
 **Results and Discussion
-
 - src: Final version
   - Both the Unity simulator and ROS running on Ubuntu 16.04
   - System Specifications: Intel Core i9-9900K Processor, NVIDIA GeForce RTX 2080 Super 8 GB, and 32 GB RAM
