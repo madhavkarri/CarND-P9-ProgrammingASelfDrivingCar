@@ -1,0 +1,4 @@
+inference_graph folder copied from C:\Users\Madhav\Desktop\CarND\MyOD7_GCL\models\research\object_detection
+Generated using Tensor Flow 1.4
+Training was done using C:\Users\Madhav\Desktop\CarND\MyOD6_GCL
+Model checkpoint file: 69544
