@@ -159,7 +159,10 @@ The Code
 - src_v7: baseline code src_v6. Classification activated
   - The code: [Link1:github](https://github.com/madhavkarri/CarND-P9-ProgrammingASelfDrivingCar/tree/master/src_vers/src_v7) and [Link2:gdrive](https://drive.google.com/drive/folders/1MHnLLm4Cw9CcQO_K9E97LsFzuVZuPic8)
 
-- src: Results and Final version
+# 
+**Results and Discussion
+
+- src: Final version
   - Both the Unity simulator and ROS running on Ubuntu 16.04
   - System Specifications: Intel Core i9-9900K Processor, NVIDIA GeForce RTX 2080 Super 8 GB, and 32 GB RAM
   - Activated TensorFlow GPU (version: 1.3.0)
