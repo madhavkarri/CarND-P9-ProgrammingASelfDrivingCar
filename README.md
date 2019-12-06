@@ -106,11 +106,11 @@ Carla is equipped with a drive-by-wire (dbw) system, meaning the throttle, brake
 #
 The Project
 
-The steps for this project:
+The project was completed in the order as suggested by Udacity:
 
-* Waypoint Updater Node (Partial): complete a partial waypoint updater which subscribes to t/base_waypoints and /current_pose and publishes to /final_waypoints.
-DBW Node: Once your waypoint updater is publishing /final_waypoints, the waypoint_follower node will start publishing messages to the/twist_cmd topic. At this point, you have everything needed to build the dbw_node. After completing this step, the car should drive in the simulator, ignoring the traffic lights.
+- Waypoint Updater Node (Partial): Complete a partial waypoint updater which subscribes to `/base_waypoints` and `/current_pose` and publishes to `/final_waypoints`.
+- DBW Node: Once your waypoint updater is publishing `/final_waypoints`, the `waypoint_follower` node will start publishing messages to the `/twist_cmd` topic. At this point, you have everything needed to build the `dbw_node`. After completing this step, the car should drive in the simulator, ignoring the traffic lights.
 Traffic Light Detection: This can be split into 2 parts:
-Detection: Detect the traffic light and its color from the /image_color. The topic /vehicle/traffic_lights contains the exact location and status of all traffic lights in simulator, so you can test your output.
+Detection: Detect the traffic light and its color from the `/image_color`. The topic `/vehicle/traffic_lights` contains the exact location and status of all traffic lights in simulator, so you can test your output.
 Waypoint publishing: Once you have correctly identified the traffic light and determined its position, you can convert it to a waypoint index and publish it.
-Waypoint Updater (Full): Use /traffic_waypoint to change the waypoint target velocities before publishing to /final_waypoints. Your car should now stop at red traffic lights and move when they are green.
+Waypoint Updater (Full): Use `/traffic_waypoint` to change the waypoint target velocities before publishing to `/final_waypoints`. Your car should now stop at red traffic lights and move when they are green.
