@@ -158,6 +158,6 @@ The Code
   - Activated TensorFlow GPU (version: 1.3.0)
   - Number of waypoints: 50
   - Camera publishing rate: 4 Hz
-  - Final output video:
+  - Final output video (Youtube): [Link](https://youtu.be/41H2Aetl3Uo) 
   
 Notes: After launching the ROS and simulator, TensorFlow initialization takes about 4 mins before it can start performing classifcation. Therefore to overcome this issue dbw_enabled flag is not enabled or set to true until 4 mins. Prolonged TensorFlow intilization is an issue for some TensorFlow versions. However, have not spent time to address this issue.
