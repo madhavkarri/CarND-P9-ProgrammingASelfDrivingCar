@@ -115,3 +115,49 @@ The project was completed in the order as suggested by Udacity:
   - Waypoint publishing: Once the traffic light was identified and its position determined, it was converted to a waypoint index for publishing.
 
 - Waypoint Updater (Full): Used `/traffic_waypoint` to change the waypoint target velocities before publishing to `/final_waypoints`. The car was able to stop at red traffic lights and move when they were green.
+
+#
+The Code
+
+- src_v1: baseline code Udacity provided. Completed the following set of steps:
+  - Waypoint Updater Node (Partial) (5)
+  - Waypoint Updater Partial Walkthrough (6)
+  - DBW Node (7)
+  - DBW Walkthrough (8)
+  - Yet to test dbw_test.py and functioning of dbw_enabled flag
+  
+- src_v2: baseline code src_v1. Implemented dbw_enabled flag and verified its working correctly
+
+- src_v3: baseline code src_v1. Implemented dbw_test.py
+
+- src_v4: baseline code src_v3. Completed the following set of steps:
+  - Traffic Light Detection Node (9)
+  - Object Detection Lab (10)
+  - Detection Walkthrough (11)
+  - Waypoint Updater Node (Full) (12)
+  - Full Waypoint Walkthrough (13)
+  - TF Classifier not yet implemented
+
+- src_v5: baseline code src_v4
+  - TF Classifier implemented
+  - Implemented storing images from front camera
+  - Implemented storing images within threshold distance from traffic light stop line
+  - Image capture using optimum distance (not too far) will increase accuracy/precision of Classifier
+  - Classification using optimum distance will lower the workload on the Classifier and consequently any lagging issues between the vehicle simulator and ROS
+
+- src_v6: baseline code src_v5
+  - Using Udacity provided code, the vehicle stops after finishing one lap
+  - Modified code such that the vehicle can traverse indefinite number of laps
+  - Looping around the simulator track, in conjunction with image capture at optimum ditance, is useful for consistent data collection used in classifier training
+
+- src_v7: baseline code src_v6. Classification activated\
+
+- src: Final version
+  - Both the Unity simulator and ROS running on Ubuntu 16.04
+  - System Specifications: Intel Core i9-9900K Processor, NVIDIA GeForce RTX 2080 Super 8 GB, and 32 GB RAM
+  - Activated TensorFlow GPU (version: 1.3.0)
+  - Number of waypoints: 50
+  - Camera publishing rate: 4 Hz
+  - Final output video:
+  
+Notes: After launching the ROS and simulator, TensorFlow initialization takes about 4 mins before it can start performing classifcation. Therefore to overcome this issue dbw_enabled flag is not enabled or set to true until 4 mins. Prolonged TensorFlow intilization is an issue for some TensorFlow versions. However, have not spent time to address this issue.
