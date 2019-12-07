@@ -37,4 +37,5 @@ These models can be useful for out-of-the-box inference for categories already i
 #
 Selection of model from Tensorflow detection model zoo
 
-The criteria for selection of model from the Tensorflow detection model zoo was based on the following w
+The criteria for selection of model from the Tensorflow detection model zoo was based on the work by Jonathan Huang et al.,
+[Speed/accuracy trade-offs for modern convolutional object detectors](https://arxiv.org/pdf/1611.10012.pdf).
