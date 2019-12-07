@@ -19,4 +19,4 @@ As the car traverses along the test track inside the simulator, using images fro
 #
 Tensorflow Object Detection API
 
-The traffic light detection and classification was performed using Tensorflow Object Detection API [Link](https://github.com/tensorflow/models/tree/master/research/object_detection)
+The traffic light detection and classification was performed using Tensorflow Object Detection API [Link](https://github.com/tensorflow/models/tree/master/research/object_detection). Creating accurate machine learning models capable of localizing and identifying multiple objects in a single image remains a core challenge in computer vision. The TensorFlow Object Detection API is an open source framework built on top of TensorFlow that makes it easy to construct, train, and deploy object detection models
