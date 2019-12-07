@@ -19,7 +19,7 @@ As the car traverses along the test track inside the simulator, using images fro
 #
 Tensorflow Object Detection API and Tensorflow detection model zoo
 
-The traffic light detection and classification was performed using Tensorflow Object Detection API [Link](https://github.com/tensorflow/models/tree/master/research/object_detection). 
+The traffic light detection and classification was performed using Tensorflow Object Detection API [Link](https://github.com/tensorflow/models/tree/master/research/object_detection) in conjunction with Tensorflow detection model zoo [Link](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). 
 
 Tensorflow Object Detection API
 
@@ -32,6 +32,4 @@ dataset](http://mscoco.org), the [Kitti dataset](http://www.cvlibs.net/datasets/
 the [Open Images dataset](https://github.com/openimages/dataset), the
 [AVA v2.1 dataset](https://research.google.com/ava/) and the
 [iNaturalist Species Detection Dataset](https://github.com/visipedia/inat_comp/blob/master/2017/README.md#bounding-boxes).
-These models can be useful for out-of-the-box inference if you are interested in
-categories already in those datasets. They are also useful for initializing your
-models when training on novel datasets.
+These models can be useful for out-of-the-box inference for categories already in those datasets  and also for initializing models when training on novel datasets.
