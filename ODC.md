@@ -44,3 +44,8 @@ The criteria for selection of model from the Tensorflow detection model zoo was 
 ![][image1]
 
 Based on the above set of results the "Fater R-CNN w/ResNet, Hi Res, 50 Proposals" model was selected for traffic light detection and classification. This model is a good trade-off between speed and accuracy. Accordingly, the [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz) was utilized for training the dataset.
+
+#
+Training Data Set
+
+
