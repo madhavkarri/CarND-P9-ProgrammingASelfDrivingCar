@@ -59,5 +59,10 @@ The test data set was obtained from the following source [Link](https://github.c
 #
 Training
 
-All the training was performed on [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) using a GPU (GPU is usually a NVIDIA Tesla P100). However, all the preliminary or preprocessing work was performed locally.
+All the training was performed on [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) using a GPU (GPU is usually a NVIDIA Tesla P100). However, all the preliminary or preprocessing work was performed locally on windows machine.
+
+Some of the preliminary and preprocessing work was performed based on this [tutorial](https://medium.com/object-detection-using-tensorflow-and-coco-pre/object-detection-using-tensorflow-and-coco-pre-trained-models-5d8386019a8) at medium.com
+
+Important Notes:
+- Install Anconda for windows [Link](https://www.anaconda.com/distribution/). I did not use Anconda GUI for this project, but rather the most useful tool from Anconda installation was the use of "Conda Environments". Using "Conda Environments" I was able to
 
