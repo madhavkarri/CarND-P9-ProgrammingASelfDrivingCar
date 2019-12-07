@@ -33,3 +33,8 @@ the [Open Images dataset](https://github.com/openimages/dataset), the
 [AVA v2.1 dataset](https://research.google.com/ava/) and the
 [iNaturalist Species Detection Dataset](https://github.com/visipedia/inat_comp/blob/master/2017/README.md#bounding-boxes).
 These models can be useful for out-of-the-box inference for categories already in those datasets  and also for initializing models when training on novel datasets.
+
+#
+Selection of model from Tensorflow detection model zoo
+
+The criteria for selection of model from the Tensorflow detection model zoo was based on the following w
