@@ -13,7 +13,7 @@ As the car traverses along the test track inside the simulator, using images fro
 
 [//]: # (Image References)
 
-[image1]: ./Writeup_IV/Carla_Architecture.png "Carla_Architecture"
+[image1]: ./Writeup_IV/SpeedAccuracy_COD.png "SpeedAccuracy_COD"
 
 
 #
@@ -39,3 +39,6 @@ Selection of model from Tensorflow detection model zoo
 
 The criteria for selection of model from the Tensorflow detection model zoo was based on the work by Jonathan Huang et al.,
 [Speed/accuracy trade-offs for modern convolutional object detectors](https://arxiv.org/pdf/1611.10012.pdf).
+ 
+ A summary of results from the above work is shown below:
+![][image1]
