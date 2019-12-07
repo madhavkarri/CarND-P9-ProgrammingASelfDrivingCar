@@ -46,6 +46,15 @@ The criteria for selection of model from the Tensorflow detection model zoo was 
 Based on the above set of results the "Faster R-CNN w/ResNet, Hi Res, 50 Proposals" model was selected for traffic light detection and classification. This model is a good trade-off between speed and accuracy. Accordingly, the [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz) was utilized for training the dataset.
 
 #
+Train and Test Data Sets
+
 Training Data Set
+
+The training data set was obtained from the following soruce [Link](https://github.com/coldKnight/TrafficLight_Detection-TensorFlowAPI). A few modifications were performed, such that the number of images consisting of Green and Yello traffic lights are equal. In addition the images in the data set were not labled and classified. The image labeling was performed using [LabelImg](https://github.com/tzutalin/labelImg). The final data set used for training can be accessed at [Link](https://drive.google.com/open?id=1kDV6NReRehsExP-mdMYqoYGszpVZhaEp)
+
+Test Data Set
+
+The test data set was obtained from the following soruce [Link](https://github.com/alex-lechner/Traffic-Light-Classification). The final data set used for testing can be accessed at [Link](https://drive.google.com/open?id=1cg_Owcn-nXXpufHn2g6D7ElVE65ZWqag)
+
 
 
