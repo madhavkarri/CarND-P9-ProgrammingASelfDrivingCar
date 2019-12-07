@@ -59,5 +59,5 @@ The test data set was obtained from the following source [Link](https://github.c
 #
 Training
 
-All the training was performed on [Google Colab]().
+All the training was performed on [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) using a GPU (GPU is usually a NVIDIA Tesla P100). However, all the preliminary or preprocessing work was performed locally.
 
