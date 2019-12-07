@@ -42,3 +42,7 @@ The criteria for selection of model from the Tensorflow detection model zoo was 
  
  A summary of results from the above work is shown below:
 ![][image1]
+
+Based on the above set of results
+
+faster_rcnn_resnet50_coco
