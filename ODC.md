@@ -3,7 +3,7 @@
 
 ## MK
 
-## Object Detection and Classification
+## Object Detection and Classification: Traffic Light Detection and Classification
 
 Overview
 
