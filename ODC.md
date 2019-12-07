@@ -64,5 +64,8 @@ All the training was performed on [Google Colab](https://colab.research.google.c
 Some of the preliminary and preprocessing work was performed based on this [tutorial](https://medium.com/object-detection-using-tensorflow-and-coco-pre/object-detection-using-tensorflow-and-coco-pre-trained-models-5d8386019a8) at medium.com
 
 Important Notes:
-- Install Anconda for windows [Link](https://www.anaconda.com/distribution/). I did not use Anconda GUI for this project, but rather the most useful tool from Anconda installation was the use of "Conda Environments". Using "Conda Environments" I was able to
+- Install Anconda for windows [Link](https://www.anaconda.com/distribution/). I did not use Anconda GUI for this project, but rather the most useful tool from Anconda installation was the use of "Conda Environments". Using "Conda Environments" it was easy to maintain different Tensor Flow versions and its associated dependencies.
+- The TensorFlow models repository's code (which contains the object detection API) is continuously updated by the developers. Sometimes they make changes that break functionality with old versions of TensorFlow.
+- In addtion, the older TensorFlow models repositories do not have all the latest object detection models (pre-trained classifiers with specific neural network architectures).
+- In this work, instead of using the latest Tensor Flow models, training was performed using Tensor Flow models based on [version 1.13](https://github.com/tensorflow/models/tree/r1.13.0). For a complete guide on Tensor Flow models based on various versions of Tensor Flow refer to this [work](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10).
 
