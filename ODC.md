@@ -17,4 +17,6 @@ As the car traverses along the test track inside the simulator, using images fro
 
 
 #
-Carla Architecture
+Tensorflow Object Detection API
+
+The traffic light detection and classification was performed using Tensorflow Object Detection API [Link](https://github.com/tensorflow/models/tree/master/research/object_detection)
