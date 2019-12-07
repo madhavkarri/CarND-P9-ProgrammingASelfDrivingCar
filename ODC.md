@@ -19,13 +19,13 @@ As the car traverses along the test track inside the simulator, using images fro
 #
 Tensorflow Object Detection API and Tensorflow detection model zoo
 
-The traffic light detection and classification was performed using Tensorflow Object Detection API [Link](https://github.com/tensorflow/models/tree/master/research/object_detection) in conjunction with Tensorflow detection model zoo [Link](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md). 
+The traffic light detection and classification was performed using Tensorflow Object Detection API in conjunction with Tensorflow detection model zoo. 
 
-Tensorflow Object Detection API
+[Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
 Creating accurate machine learning models capable of localizing and identifying multiple objects in a single image remains a core challenge in computer vision. The TensorFlow Object Detection API is an open source framework built on top of TensorFlow that makes it easy to construct, train, and deploy object detection models
 
-Tensorflow detection model zoo
+[Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
 
 A collection of detection models pre-trained on the [COCO
 dataset](http://mscoco.org), the [Kitti dataset](http://www.cvlibs.net/datasets/kitti/),
