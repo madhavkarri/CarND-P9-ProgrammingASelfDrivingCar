@@ -72,7 +72,18 @@ Important Notes:
 - Tensor Flow version 1.13.2 and the necessary packages to run the object detection API are shown below
 ![][image2]
 - Once the necessary environment has been created with the packages listed above, follow the below set of steps sequentially
-  - `set PYTHONPATH=C:/Users/Madhav/Desktop/CarND/MyOD6_GCL/models;C:/Users/Madhav/Desktop/CarND/MyOD6_GCL/models/research;C:/Users/Madhav/Desktop/CarND/MyOD6_GCL/models/research/slim`
+  - `set PYTHONPATH=C:/Users/???/Desktop/CarND/MyOD6_GCL/models`
+  - `set PYTHONPATH=C:/Users/???/Desktop/CarND/MyOD6_GCL/models/research`
+  - `set PYTHONPATH=C:/Users/???/Desktop/CarND/MyOD6_GCL/models/research/slim`
+  -  `set PATH=%PATH%;PYTHONPATH`
+  - `echo %PATH%`
+  - `echo %PYTHONPATH%`
+  - `cd C:/Users/???/Desktop/CarND/MyOD6_GCL/models/research`
+  - `for /f %i in ('dir /b object_detection\protos\*.proto') do protoc object_detection\protos\%i --python_out=.`
+  - `python setup.py build`
+  - `python setup.py install`
+  - `cd object_detection`
+  - ``
 
 - Furthermore, Udacity supplied Ubuntu image with ROS installation uses Tensor Flow version 1.3.0
 
