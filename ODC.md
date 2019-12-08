@@ -71,7 +71,7 @@ Important Notes:
 - In this work, instead of using the latest Tensor Flow models, training was performed using Tensor Flow models based on [version 1.13](https://github.com/tensorflow/models/tree/r1.13.0), one version below the latest version as of 12/07/2019. For a complete guide on Tensor Flow models based on various versions of Tensor Flow refer to this [work](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10).
 - Tensor Flow version 1.13.2 and the necessary packages to run the object detection API are shown below
 ![][image2]
-- Once the necessary environment has been created with the packages listed above, follow the below set of steps sequentially
+- Create conda environment with the above listed packages and execute the below set of commands sequentially inside Anaconda command prompt:
   - `set PYTHONPATH=C:/Users/???/Desktop/CarND/MyOD6_GCL/models`
   - `set PYTHONPATH=C:/Users/???/Desktop/CarND/MyOD6_GCL/models/research`
   - `set PYTHONPATH=C:/Users/???/Desktop/CarND/MyOD6_GCL/models/research/slim`
@@ -83,7 +83,10 @@ Important Notes:
   - `python setup.py build`
   - `python setup.py install`
   - `cd object_detection`
-  - ``
+  - `python xml_to_csv.py`
+  - `python generate_tfrecord.py --csv_input=images/train_labels.csv --image_dir=images/train --output_path=train.record`
+  - `python generate_tfrecord.py --csv_input=images/test_labels.csv --image_dir=images/test --output_path=test.record`
+  - `python legacy/train.py --logtostderr --train_dir=training/ --pipeline_config_path=training/faster_rcnn_resnet50_coco.config`
 
 - Furthermore, Udacity supplied Ubuntu image with ROS installation uses Tensor Flow version 1.3.0
 
