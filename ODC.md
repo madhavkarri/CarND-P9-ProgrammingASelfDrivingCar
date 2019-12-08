@@ -91,7 +91,12 @@ Important Notes:
 - To keep track of the above training process and various loss variables, open another Anaconda command prompt and execute below set of commands
   - `cd C:/Users/???/Desktop/CarND/MyOD6_GCL/models/research/object_detection/`
   - `tensorboard --logdir=training`
-- Once the above two commands have been executed, it outputs a http address with port 6006. The training progress and other loss variables can be viewed using a browser and the http address.
+- Executing the above two commands would result in a http address with port 6006. The training progress and other loss variables can be viewed using a browser and the http address.
+
+Frozen Inference Graph
+- After the training is completed a frozen inference graph can be created using the below command:
+  - `python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_resnet50_coco.config --trained_checkpoint_prefix training/model.ckpt-???? --output_directory inference_graph`
+  - `model.ckpt-????` represents one of the saved model checkpoints from the training process. Typically this model-checkpoint refers to one with the lowest total loss.
 
 - Furthermore, Udacity supplied Ubuntu image with ROS installation uses Tensor Flow version 1.3.0
 
