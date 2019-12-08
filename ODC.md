@@ -101,7 +101,7 @@ Frozen Inference Graph
 Testing Classifier
 - After the inference graph has been created, test the classifier on images using the below command
 - `python my_Object_detection_image.py`
-- The above python code typically is written to test on a single image. If it is necessary to test the classifier on multiple images in a single session use the following python code [my_Object_detection_image.py](https://drive.google.com/drive/folders/1F4qNZJ-9XoPDYTrb8t_lmbnYR17qNdpX)
+- The above python code typically is written to test on a single image. If it is necessary to test the classifier on multiple images in a single session use the following python code [my_Object_detection_image.py](https://drive.google.com/open?id=1D4pAmQ_Cauqpcxp0hO5u5u3_YuXcupnk)
 
 - Furthermore, Udacity supplied Ubuntu image with ROS installation uses Tensor Flow version 1.3.0
 
