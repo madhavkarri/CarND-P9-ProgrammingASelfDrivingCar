@@ -21,6 +21,7 @@ As the car traverses along the test track inside the simulator, it has to detect
 [image4]: ./Writeup_IV/MyOD6_GCL_TB2.png "MyOD6_GCL_TB2"
 [image5]: ./Writeup_IV/MyOD6_GCL_TB3.png "MyOD6_GCL_TB3"
 [image6]: ./Writeup_IV/TFV_1p4.png "TFV_1p4"
+[image7]: ./Writeup_IV/TFV_1p4.png "TFV_1p4"
 
 #
 Tensorflow Object Detection API and Tensorflow detection model zoo
@@ -208,6 +209,9 @@ Saving Frozen Inference Graph for TensorFlow Version 1.3.0
   - `cd object_detection`
 - Frozen Inference Graph. This is the most important step. Once the training has been completed using TensorFlow version 1.13.2, DO NOT rerun the training command in version 1.4.0. Instead run the below command
   - `python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_resnet50_coco.config --trained_checkpoint_prefix training/model.ckpt-69544 --output_directory inference_graph`
+
+After creation of the inference graph, the 'inference_graph' folder should look something similar to as shown below:
+![][image7]
 
 Complete objection detection work, train and test data sets, saved model checkpoints, amd frozen inference graph can be accessed at [Link:6GB](https://drive.google.com/open?id=1btVy0C9Y32uWW3BC3G7heQCCx_LzJX6o) and [Link:2GB](https://drive.google.com/open?id=1ck5yf1BYGU1JRX0i82dAJm6fOo86ejzY)
 
