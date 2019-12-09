@@ -113,7 +113,13 @@ Google Colab
 - After the training has been tested on local machine, upload the working folder as a zip file to Google Drive. It is easier to upload to Google Drive and doing a transfer from Google Drive to Colab rather than uploading directly to Colab
 - Training in Colab is performed in iPython notebook. iPython notebook used for this work can be accessed [here](./Writeup_IV/od6_req.ipynb). Execute the cells one at a time 
 
-Training results from Google Colab: it shows Total Loss as a function of number of steps/iterations. The model-checkpoint for generating the inference graph was selected approximately at step number 70,000. The selected model-checkpoint was 69,544. The total loss at step number 69,544 was approximately 0.02. By running the evaluation on the test and train data sets, the following mertrics were obtained:
+Training results from Google Colab: it shows Total Loss as a function of number of steps/iterations. The model-checkpoint for generating the inference graph was selected approximately at step number 70,000. The selected model-checkpoint was 69,544. The total loss at step number 69,544 was approximately 0.02
+
+![][image3]
+![][image4]
+![][image5]
+
+By running the evaluation on the test and train data sets, the following mertrics were obtained:
 - Train Data Set
 
 `Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.981`
@@ -169,11 +175,6 @@ Training results from Google Colab: it shows Total Loss as a function of number 
   - PascalBoxes_PerformanceByCategory/AP@0.5IOU/b'Red': 0.945645
   - PascalBoxes_PerformanceByCategory/AP@0.5IOU/b'Yellow': 0.938653
   - PascalBoxes_Precision/mAP@0.5IOU: 0.924051
-
-![][image3]
-![][image4]
-![][image5]
-
-
+  
 - Furthermore, Udacity supplied Ubuntu image with ROS installation uses Tensor Flow version 1.3.0
 
