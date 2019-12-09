@@ -16,6 +16,8 @@ As the car traverses along the test track inside the simulator, it has to detect
 [image1]: ./Writeup_IV/SpeedAccuracy_COD.png "SpeedAccuracy_COD"
 [image2]: ./Writeup_IV/TFV_1p13p2.png "TFV_1p13p2"
 [image3]: ./Writeup_IV/MyOD6_GCL_TB1.png "MyOD6_GCL_TB1"
+[image4]: ./Writeup_IV/MyOD6_GCL_TB2.png "MyOD6_GCL_TB2"
+[image5]: ./Writeup_IV/MyOD6_GCL_TB3.png "MyOD6_GCL_TB3"
 
 
 #
@@ -114,6 +116,8 @@ Execute the cells one at a time
 
 Training results from Google Colab: it shows Total Loss as a function of number of steps/iterations.
 ![][image3]
+![][image4]
+![][image5]
 
 
 - Furthermore, Udacity supplied Ubuntu image with ROS installation uses Tensor Flow version 1.3.0
