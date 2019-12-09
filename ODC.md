@@ -187,7 +187,9 @@ Saving Frozen Inference Graph for Tensor Flow Version 1.3.0
 - Complete the object detection training as described in the previous section using Tensor Flow version 1.13.2
 - Make a copy of the working directory where the training has been completed
 - Tensor Flow version 1.4.0 and the necessary packages to run the object detection API are shown below
+
 ![][image6]
+
 - Create conda environment with the above listed packages and execute the below set of commands sequentially using Anaconda command prompt:
   - `set PYTHONPATH=C:/Users/???/Desktop/CarND/MyOD7_GCL/models`
   - `set PYTHONPATH=C:/Users/???/Desktop/CarND/MyOD7_GCL/models/research`
@@ -200,8 +202,7 @@ Saving Frozen Inference Graph for Tensor Flow Version 1.3.0
   - `python setup.py build`
   - `python setup.py install`
   - `cd object_detection`
-
-Frozen Inference Graph
+- Frozen Inference Graph
   - `python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_resnet50_coco.config --trained_checkpoint_prefix training/model.ckpt-69544 --output_directory inference_graph`
 
 
