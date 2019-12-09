@@ -112,7 +112,7 @@ Google Colab
 - Training in Colab is performed in iPython notebook. iPython notebook used for this work can be accessed [here](./Writeup_IV/od6_req.ipynb)
 Execute the cells one at a time
 
-Training results from Google Colab: it shows Total Loss as a function of number of iterations.
+Training results from Google Colab: it shows Total Loss as a function of number of steps/iterations.
 ![][image3]
 
 
