@@ -115,31 +115,31 @@ Google Colab
 
 Training results from Google Colab: it shows Total Loss as a function of number of steps/iterations. The model-checkpoint for generating the inference graph was selected approximately at step number 70,000. The selected model-checkpoint was 69,544. The total loss at step number 69,544 was approximately 0.02. By running the evaluation on the test and train data sets, the following mertrics were obtained:
 - Train Data Set
-`Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.981
- Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 1.000
- Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.997
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.942
- Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.997
- Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 1.000
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.340
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.984
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.984
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.953
- Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.998
- Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 1.000
-INFO:tensorflow:Writing metrics to tf summary.
-INFO:tensorflow:DetectionBoxes_Precision/mAP: 0.981119
-INFO:tensorflow:DetectionBoxes_Precision/mAP (large): 1.000000
-INFO:tensorflow:DetectionBoxes_Precision/mAP (medium): 0.996519
-INFO:tensorflow:DetectionBoxes_Precision/mAP (small): 0.941960
-INFO:tensorflow:DetectionBoxes_Precision/mAP@.50IOU: 0.999881
-INFO:tensorflow:DetectionBoxes_Precision/mAP@.75IOU: 0.996602
-INFO:tensorflow:DetectionBoxes_Recall/AR@1: 0.339729
-INFO:tensorflow:DetectionBoxes_Recall/AR@10: 0.984217
-INFO:tensorflow:DetectionBoxes_Recall/AR@100: 0.984217
-INFO:tensorflow:DetectionBoxes_Recall/AR@100 (large): 1.000000
-INFO:tensorflow:DetectionBoxes_Recall/AR@100 (medium): 0.997663
-INFO:tensorflow:DetectionBoxes_Recall/AR@100 (small): 0.953016`
+
+`Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.981`
+ `Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 1.000`
+ `Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.997`
+ `Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.942`
+ `Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.997`
+ `Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 1.000`
+ `Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.340`
+ `Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.984`
+ `Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.984`
+ `Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.953`
+ `Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.998`
+ `Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 1.000`
+`INFO:tensorflow:DetectionBoxes_Precision/mAP: 0.981119`
+`INFO:tensorflow:DetectionBoxes_Precision/mAP (large): 1.000000`
+`INFO:tensorflow:DetectionBoxes_Precision/mAP (medium): 0.996519`
+`INFO:tensorflow:DetectionBoxes_Precision/mAP (small): 0.941960`
+`INFO:tensorflow:DetectionBoxes_Precision/mAP@.50IOU: 0.999881`
+`INFO:tensorflow:DetectionBoxes_Precision/mAP@.75IOU: 0.996602`
+`INFO:tensorflow:DetectionBoxes_Recall/AR@1: 0.339729`
+`INFO:tensorflow:DetectionBoxes_Recall/AR@10: 0.984217`
+`INFO:tensorflow:DetectionBoxes_Recall/AR@100: 0.984217`
+`INFO:tensorflow:DetectionBoxes_Recall/AR@100 (large): 1.000000`
+`INFO:tensorflow:DetectionBoxes_Recall/AR@100 (medium): 0.997663`
+`INFO:tensorflow:DetectionBoxes_Recall/AR@100 (small): 0.953016`
 
 - Test Data Set
   - PascalBoxes_PerformanceByCategory/AP@0.5IOU/b'Green': 0.887854
