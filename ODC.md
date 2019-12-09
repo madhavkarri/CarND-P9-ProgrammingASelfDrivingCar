@@ -182,9 +182,11 @@ By running the evaluation on the test and train data sets, the following mertric
 Complete objection detection work, train and test data sets, and saved model checkpoints during the training process can be accessed at [Link:6GB](https://drive.google.com/open?id=1bCtRdwh8hNPNMM1vyB2XpPK6EGPi2RQg) and [Link:2GB](https://drive.google.com/open?id=19qdeWJjwXhFJsSOaCy5niypHlKFB7hRx)
 
 #
-Saving Frozen Inference Graph for Tensor Flow Version 1.3.0
-- Udacity supplied Ubuntu image with ROS installation uses Tensor Flow version 1.3.0
-- Complete the object detection training as described in the previous section using Tensor Flow version 1.13.2
+Saving Frozen Inference Graph for TensorFlow Version 1.3.0
+- Udacity supplied Ubuntu image with ROS installation uses TensorFlow version 1.3.0
+- The lowest TensorFLow version with Object Detection API is version 1.4.0. This can be accessed at [Link](https://github.com/tensorflow/models/tree/1f34fcafc1454e0d31ab4a6cc022102a54ac0f5b)
+- It has also been verified that the frozen inference graph generated using TensorFlow version 1.4.0 also works with version 1.3.0
+- Complete the object detection training as described in the previous section using TensorFlow version 1.13.2
 - Make a copy of the working directory where the training has been completed
 - Tensor Flow version 1.4.0 and the necessary packages to run the object detection API are shown below
 
@@ -202,7 +204,7 @@ Saving Frozen Inference Graph for Tensor Flow Version 1.3.0
   - `python setup.py build`
   - `python setup.py install`
   - `cd object_detection`
-- Frozen Inference Graph
+- Frozen Inference Graph. This is the most important step. Once the training has been completed using TensorFlow version 1.13.2, do not rerun the training command in version 1.4.0. Instead run the below command
   - `python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_resnet50_coco.config --trained_checkpoint_prefix training/model.ckpt-69544 --output_directory inference_graph`
 
 
