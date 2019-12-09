@@ -211,3 +211,4 @@ Complete objection detection work, train and test data sets, saved model checkpo
 
 # 
 <span style="color:red">some Important Notes text</span>
+<font color='red'>test blue color font</font>
