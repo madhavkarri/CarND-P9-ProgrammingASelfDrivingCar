@@ -117,7 +117,7 @@ Training results from Google Colab: it shows Total Loss as a function of number 
 
 ![][image3]
 ![][image4]
-![][image5
+![][image5]
 
 
 - Furthermore, Udacity supplied Ubuntu image with ROS installation uses Tensor Flow version 1.3.0
