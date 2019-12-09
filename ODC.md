@@ -208,3 +208,6 @@ Saving Frozen Inference Graph for TensorFlow Version 1.3.0
   - `python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_resnet50_coco.config --trained_checkpoint_prefix training/model.ckpt-69544 --output_directory inference_graph`
 
 Complete objection detection work, train and test data sets, saved model checkpoints, amd frozen inference graph can be accessed at [Link:6GB](https://drive.google.com/open?id=1btVy0C9Y32uWW3BC3G7heQCCx_LzJX6o) and [Link:2GB](https://drive.google.com/open?id=1ck5yf1BYGU1JRX0i82dAJm6fOo86ejzY)
+
+# 
+<span style="color:red">some Important Notes text</span>
