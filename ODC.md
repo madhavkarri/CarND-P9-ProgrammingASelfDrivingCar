@@ -3,6 +3,8 @@
 
 ## MK
 
+Others who would like to either replicate or use a modified version of the below procedure, please read through complete write-up before attempting to build this object detection classifier
+
 ## Traffic Light Detection and Classification
 
 Overview
@@ -210,5 +212,6 @@ Saving Frozen Inference Graph for TensorFlow Version 1.3.0
 Complete objection detection work, train and test data sets, saved model checkpoints, amd frozen inference graph can be accessed at [Link:6GB](https://drive.google.com/open?id=1btVy0C9Y32uWW3BC3G7heQCCx_LzJX6o) and [Link:2GB](https://drive.google.com/open?id=1ck5yf1BYGU1JRX0i82dAJm6fOo86ejzY)
 
 # 
-<span style="color:red">some Important Notes text</span>
-<font color='red'>test blue color font</font>
+Important Notes
+
+- 
