@@ -21,7 +21,7 @@ As the car traverses along the test track inside the simulator, it has to detect
 [image4]: ./Writeup_IV/MyOD6_GCL_TB2.png "MyOD6_GCL_TB2"
 [image5]: ./Writeup_IV/MyOD6_GCL_TB3.png "MyOD6_GCL_TB3"
 [image6]: ./Writeup_IV/TFV_1p4.png "TFV_1p4"
-[image7]: ./Writeup_IV/TFV_1p4.png "TFV_1p4"
+[image7]: ./Writeup_IV/MyOD7_IG.png "MyOD7_IG"
 
 #
 Tensorflow Object Detection API and Tensorflow detection model zoo
