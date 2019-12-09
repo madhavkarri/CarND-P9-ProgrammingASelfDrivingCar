@@ -204,7 +204,7 @@ Saving Frozen Inference Graph for TensorFlow Version 1.3.0
   - `python setup.py build`
   - `python setup.py install`
   - `cd object_detection`
-- Frozen Inference Graph. This is the most important step. Once the training has been completed using TensorFlow version 1.13.2, do not rerun the training command in version 1.4.0. Instead run the below command
+- Frozen Inference Graph. This is the most important step. Once the training has been completed using TensorFlow version 1.13.2, DO NOT rerun the training command in version 1.4.0. Instead run the below command
   - `python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_resnet50_coco.config --trained_checkpoint_prefix training/model.ckpt-69544 --output_directory inference_graph`
 
 
