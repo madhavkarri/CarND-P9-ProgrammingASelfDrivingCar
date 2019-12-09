@@ -116,8 +116,8 @@ Google Colab
 Training results from Google Colab: it shows Total Loss as a function of number of steps/iterations. The model-checkpoint for generating the inference graph was selected approximately at step number 70,000. The selected model-checkpoint was 69,544. The total loss at step number 69,544 was approximately 0.02
 
 ![][image3]
-![][image4]
-![][image5]
+[//]: # ![][image4]
+[//]: # ![][image5]
 
 By running the evaluation on the test and train data sets, the following mertrics were obtained:
 - Train Data Set
