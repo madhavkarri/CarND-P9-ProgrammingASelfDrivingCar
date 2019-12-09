@@ -106,8 +106,10 @@ Testing Classifier
 - The above python code typically is written to test on a single image. If it is necessary to test the classifier on multiple images in a single session use the following python code [my_Object_detection_image.py](https://drive.google.com/open?id=1D4pAmQ_Cauqpcxp0hO5u5u3_YuXcupnk)
 
 Google Colab
-- All the training has been performed in Google Colab because of the ease of access to GPU
-- After the training has been tested on local machine, upload the working folder to Google Drive. It is easier to upload to Google Drive and doing a transfer from Google Drive to Colab rather than uploading directly to Colab
+- All the training has been performed in Google Colab (Colab) because of the ease of access to GPU
+- After the training has been tested on local machine, upload the working folder as a zip file to Google Drive. It is easier to upload to Google Drive and doing a transfer from Google Drive to Colab rather than uploading directly to Colab
+- Training in Colab is performed in iPython notebook. iPython notebook used for this work can be accessed [here](./Writeup_IV/od6_req.ipynb)
+Execute the cells one at a time
 
 
 
