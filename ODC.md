@@ -112,7 +112,7 @@ Google Colab
 - All the training has been performed in Google Colab (Colab) because of the ease of access to GPU
 - After the training has been tested on local machine, upload the working folder as a zip file to Google Drive. It is easier to upload to Google Drive and doing a transfer from Google Drive to Colab rather than uploading directly to Colab
 - Training in Colab is performed in iPython notebook. iPython notebook used for this work can be accessed [here](./Writeup_IV/od6_req.ipynb)
-Execute the cells one at a time
+Execute the cells one at a time 
 
 Training results from Google Colab: it shows Total Loss as a function of number of steps/iterations.
 ![][image3]
