@@ -8,7 +8,7 @@
 Results summary of Traffic Light Detection and Classification classifier performance on test images:
 - In most cases, output of the classifier matches that of the ground truth values
 - Misclassifications are in instances where the distance between the car and the traffic light is quite significant. Even, in those instances "Red" and "Yellow" light states are being classified correctly. Missclassifications occurs only with the "Green" light state being classified as "Yellow". This should not be a concern, as classification is not performed untill the waypoint difference bteween the car and traffic light is less than 75. At 75 waypoints difference, car is pretty close to the traffic light
-- All the classifier results on test images cab be accessed at this [Link](./CImages_Test/)
+- All the classifier results on test images can be accessed at this [Link](./CImages_Test/)
 
 [//]: # (Image References)
 
