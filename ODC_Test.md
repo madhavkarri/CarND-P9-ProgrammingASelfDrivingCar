@@ -31,8 +31,8 @@ Results summary of Traffic Light Detection and Classification classifier perform
 
 Classifications
 
-![](image1 =400x300)
-![](image2 =400x300)
+![][image1]
+![][image2]
 ![][image3]
 ![][image4]
 ![][image5]
