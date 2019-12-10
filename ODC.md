@@ -22,6 +22,7 @@ As the car traverses along the test track inside the simulator, it has to detect
 [image5]: ./Writeup_IV/MyOD6_GCL_TB3.png "MyOD6_GCL_TB3"
 [image6]: ./Writeup_IV/TFV_1p4.png "TFV_1p4"
 [image7]: ./Writeup_IV/MyOD7_IG.png "MyOD7_IG"
+[image8]: ./Writeup_IV/MyOD6_M1.png "MyOD6_M1"
 
 #
 Tensorflow Object Detection API and Tensorflow detection model zoo
@@ -219,4 +220,8 @@ Complete objection detection work, train and test data sets, saved model checkpo
 # 
 Important Notes
 
-- The above object detection classifier used [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz) as the initializer for training the traffic lights data set. There might be scenarios and use cases where it would be necessary to depend on other [trained models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).
+- The above object detection classifier used [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz) as the initializer for training the traffic lights data set. There might be scenarios and use cases where it would be necessary to depend on other [trained models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md)
+- To integrate other models into the above described framework, download the intended pre-trained model from [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) and untar/unzip the pre-trained model files into the folder `MyOD6_M1` and it contents should look as shown below
+
+![][image8]
+
