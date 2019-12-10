@@ -44,13 +44,13 @@ These models can be useful for out-of-the-box inference for categories already i
 #
 Selection of model from Tensorflow detection model zoo
 
-The criteria for selection of model from the Tensorflow detection model zoo was based on the work by Jonathan Huang et al.,
+The criteria for selection of model from the Tensorflow detection models zoo was based on the work by Jonathan Huang et al.,
 [Speed/accuracy trade-offs for modern convolutional object detectors](https://arxiv.org/pdf/1611.10012.pdf).
  
  A summary of results from the above work is shown below:
 ![][image1]
 
-Based on the above set of results the "Faster R-CNN w/ResNet, Hi Res, 50 Proposals" model was selected for traffic light detection and classification. This model is a good trade-off between speed and accuracy. Accordingly, the [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz) was utilized for training the dataset.
+Based on the above set of results the "Faster R-CNN w/ResNet, Hi Res, 50 Proposals" model was selected for traffic light detection and classification. This model is a good trade-off between speed and accuracy. Accordingly, the [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz) was utilized as initializer for training the dataset.
 
 #
 Train and Test Data Sets
@@ -214,9 +214,9 @@ After creation of the inference graph, the 'inference_graph' folder should look 
 
 ![][image7]
 
-Complete objection detection work, train and test data sets, saved model checkpoints, amd frozen inference graph can be accessed at [Link:6GB](https://drive.google.com/open?id=1btVy0C9Y32uWW3BC3G7heQCCx_LzJX6o) and [Link:2GB](https://drive.google.com/open?id=1ck5yf1BYGU1JRX0i82dAJm6fOo86ejzY)
+Complete objection detection work, train and test data sets, saved model checkpoints, and frozen inference graph can be accessed at [Link:6GB](https://drive.google.com/open?id=1btVy0C9Y32uWW3BC3G7heQCCx_LzJX6o) and [Link:2GB](https://drive.google.com/open?id=1ck5yf1BYGU1JRX0i82dAJm6fOo86ejzY)
 
 # 
 Important Notes
 
-- 
+- The above object detection classifier used [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz) as the initializer for training the traffic lights data set. There might be scenarios and use cases where it would be necessary to depend on other [trained models](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).
