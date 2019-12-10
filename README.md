@@ -162,7 +162,8 @@ The Code
 #
 ### Traffic Light Detection and Classification
 
-A complete writeup on Traffic Light Detection and Classification using TensorFlow Object Detection API can be accessed [here](ODC.md)
+- A complete writeup on Traffic Light Detection and Classification using TensorFlow Object Detection API can be accessed [here](ODC.md)
+- Results from the classifier output can be accessed at this [Link](./ODC_Test.md)
 
 # 
 ### Results and Discussion
