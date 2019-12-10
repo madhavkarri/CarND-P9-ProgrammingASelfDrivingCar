@@ -12,8 +12,8 @@ Results summary of Traffic Light Detection and Classification classifier perform
 
 [//]: # (Image References)
 
-[image1]: ./CImages_Test/cimgs_11.jpg "cimgs_11"
-[image2]: ./CImages_Test/cimgs_61.jpg "cimgs_61"
+[image1]: ./CImages_Test/cimgs_11.jpg = 400X300 "cimgs_11"
+[image2]: ./CImages_Test/cimgs_61.jpg = 300X400 "cimgs_61"
 [image3]: ./CImages_Test/cimgs_63.jpg "cimgs_63"
 [image4]: ./CImages_Test/cimgs_19.jpg "cimgs_19"
 [image5]: ./CImages_Test/cimgs_20.jpg "cimgs_20"
