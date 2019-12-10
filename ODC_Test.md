@@ -29,6 +29,7 @@ Results summary of Traffic Light Detection and Classification classifier perform
 [image14]: ./CImages_Test/cimgs_116.jpg "cimgs_116"
 [image15]: ./CImages_Test/cimgs_23.jpg "cimgs_23"
 
+#
 Classifications
 
 ![][image1]
@@ -42,6 +43,7 @@ Classifications
 ![][image9]
 ![][image10]
 
+#
 Misclassifications
 
 ![][image11]
