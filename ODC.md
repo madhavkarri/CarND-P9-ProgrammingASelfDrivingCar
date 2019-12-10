@@ -3,7 +3,7 @@
 
 ## MK
 
-Others who would like to either replicate or use a modified version of the below procedure, please read through complete write-up before attempting to build this object detection classifier
+Others who would like to either replicate or use a modified version of the below procedure, please read through the complete write-up before attempting to build this object detection classifier
 
 ## Traffic Light Detection and Classification
 
@@ -228,4 +228,5 @@ Important Notes
 - In addition, copy the file `pipline.config` from `\MyOD6_GCL\models\research\object_detection\MyOD6_M1` to folder `\MyOD6_GCL\models\research\object_detection\training` and rename it as `faster_rcnn_resnet50_coco.config`
 - Changes are performed to the configuration file `faster_rcnn_resnet50_coco.config`. Some of these changes are: number of classes (for traffic light classification: 3), image size (for traffic light classification 800X600), set batch_size=1 for object detection, number of steps, etc. The `faster_rcnn_resnet50_coco.config` can be accessed at [Link](https://drive.google.com/open?id=1rt_sio7nozcRc6ToSlncPOhVJOwqYkHq)
 - Every new instance of training or generating an inference graph, the folders `\MyOD6_GCL\models\research\object_detection\training` and `\MyOD6_GCL\models\research\object_detection\inference_graph` needs to be emptied. Only exception being files `faster_rcnn_resnet50_coco.config` and `labelmap.pbtxt` in the folder `\MyOD6_GCL\models\research\object_detection\training` should not be deleted
-- There are other folders and files that should be cleaned. The previous three steps and most of the above listed classification procedure have been clearly described in this tutorial
+- There are other folders and files that should be cleaned prior to initiating the training process. The previous couple of steps and most of the above listed classification procedure has been clearly described in this [tutorial](https://medium.com/object-detection-using-tensorflow-and-coco-pre/object-detection-using-tensorflow-and-coco-pre-trained-models-5d8386019a8)
+- 
