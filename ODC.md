@@ -226,3 +226,5 @@ Important Notes
 ![][image8]
 
 - In addition, copy the file `pipline.config` from `\MyOD6_GCL\models\research\object_detection\MyOD6_M1` to folder `\MyOD6_GCL\models\research\object_detection\training` and rename it as `faster_rcnn_resnet50_coco.config`
+- Every new instance of training or generating an inference graph, the folders `\MyOD6_GCL\models\research\object_detection\training` and `\MyOD6_GCL\models\research\object_detection\inference_graph` needs to be emptied. Only exception being files `faster_rcnn_resnet50_coco.config` and `labelmap.pbtxt` in the folder `\MyOD6_GCL\models\research\object_detection\training` should not be deleted
+- There are other folders and files that should be cleaned. The previous three steps and most of the above listed classification procedure have been clearly described in this tutorial
