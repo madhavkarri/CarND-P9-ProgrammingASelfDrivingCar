@@ -117,6 +117,7 @@ Testing Classifier
 - After the inference graph has been created, test the classifier on images using the below command
 - `python my_Object_detection_image.py`
 - The above python code typically is written to test on a single image. If it is necessary to test the classifier on multiple images in a single session use the following python code [my_Object_detection_image.py](https://drive.google.com/open?id=1D4pAmQ_Cauqpcxp0hO5u5u3_YuXcupnk)
+- Results from the classifier output can be accessed at this [Link](./ODC_Test.md)
 
 Google Colab
 - All the training has been performed in Google Colab (Colab) because of the ease of access to GPU
