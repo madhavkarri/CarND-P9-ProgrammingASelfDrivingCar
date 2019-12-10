@@ -218,7 +218,7 @@ After creation of the inference graph, the 'inference_graph' folder should look 
 Complete objection detection work, train and test data sets, saved model checkpoints, and frozen inference graph can be accessed at [Link:6GB](https://drive.google.com/open?id=1btVy0C9Y32uWW3BC3G7heQCCx_LzJX6o) and [Link:2GB](https://drive.google.com/open?id=1ck5yf1BYGU1JRX0i82dAJm6fOo86ejzY)
 
 # 
-Important Notes
+Must Read
 
 - The above object detection classifier used [faster_rcnn_resnet50_coco](http://download.tensorflow.org/models/object_detection/faster_rcnn_resnet50_coco_2018_01_28.tar.gz) as the initializer for training the traffic lights data set. There might be scenarios and use cases where it would be necessary to depend on other [trained models](https://github.com/tensorflow/models/blob/v1.13.0/research/object_detection/g3doc/detection_model_zoo.md)
 - To integrate other models into the above described framework, download the intended pre-trained model from [Tensorflow detection model zoo (TensorFlow version 1.13.0)](https://github.com/tensorflow/models/blob/v1.13.0/research/object_detection/g3doc/detection_model_zoo.md) and untar/unzip the pre-trained model files into the folder `MyOD6_M1` and it contents should look as shown below
@@ -227,6 +227,7 @@ Important Notes
 
 - In addition, copy the file `pipline.config` from `\MyOD6_GCL\models\research\object_detection\MyOD6_M1` to folder `\MyOD6_GCL\models\research\object_detection\training` and rename it as `faster_rcnn_resnet50_coco.config`
 - Changes are performed to the configuration file `faster_rcnn_resnet50_coco.config`. Some of these changes are: number of classes (for traffic light classification: 3), image size (for traffic light classification 800X600), set batch_size=1 for object detection, number of steps, etc. The `faster_rcnn_resnet50_coco.config` can be accessed at [Link](https://drive.google.com/open?id=1rt_sio7nozcRc6ToSlncPOhVJOwqYkHq)
+- Reference to the folder `MyOD6_M1` is made inside the file `faster_rcnn_resnet50_coco.config` as follows `fine_tune_checkpoint: "/content/MyOD6_GCL/models/research/object_detection/MyOD6_M1/model.ckpt"`
 - Every new instance of training or generating an inference graph, the folders `\MyOD6_GCL\models\research\object_detection\training` and `\MyOD6_GCL\models\research\object_detection\inference_graph` needs to be emptied. Only exception being files `faster_rcnn_resnet50_coco.config` and `labelmap.pbtxt` in the folder `\MyOD6_GCL\models\research\object_detection\training` should not be deleted
 - There are other folders and files that should be cleaned prior to initiating the training process. The previous couple of steps and most of the above listed classification procedure has been clearly described in this [tutorial](https://medium.com/object-detection-using-tensorflow-and-coco-pre/object-detection-using-tensorflow-and-coco-pre-trained-models-5d8386019a8)
-- 
+- Its important that the directory structure starting from 'models'  and its subdirectories in ``
