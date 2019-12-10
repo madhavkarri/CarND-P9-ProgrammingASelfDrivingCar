@@ -64,6 +64,12 @@ Test Data Set
 
 The test data set was obtained from the following source [Link](https://github.com/alex-lechner/Traffic-Light-Classification). The final data set used for testing can be accessed at [Link](https://drive.google.com/open?id=1cg_Owcn-nXXpufHn2g6D7ElVE65ZWqag)
 
+Ideal Data Set
+
+Ideally, simulator data set should have been collected by running the car in autonomous mode and taking advantage of traffic light state and looping the car around the test track. ROS code has been already implemented to loop the car around the test track. Capture traffic light images only when the waypoint difference between the car current location and the traffic-light stop line is between 100 and 0. Save images with file name consisting of traffic-light id, waypoint difference, traffic-ligth state. ROS code has already been implemented to perform saving images with file name as described previously. Data collected in such a mmaner might be dominated by "Red" and "Green" light states. To overcome this let the car traverse couple of laps and save images only when light state is "Yellow". To further minimze the bias between "Red", "Green", and "Yellow" a wrapper-code can be written such that it picks images from the collected data set as follows: for each traffic light id create buckets such that each bucket represents waypoint difference in increments of 5. Therefore for 100 waypoint difference, there should be about 20 buckets. For each bucket, from the saved images data set,select only 3 images representing "Red", "Green", and "Yellow" light states. This will result in about 480 images for a total of 8 traffic lights on the test track. The previously described procedure should result in consistent test data without any bias.
+
+However, by the time all necessary code has been implemented, the remainder of the project has been completed and had to forgo the above described procedure.
+
 #
 Training
 
