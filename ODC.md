@@ -225,3 +225,4 @@ Important Notes
 
 ![][image8]
 
+- In addition, copy the file `pipline.config` from `\MyOD6_GCL\models\research\object_detection\MyOD6_M1` to folder `\MyOD6_GCL\models\research\object_detection\training` and rename it as `faster_rcnn_resnet50_coco.config`
