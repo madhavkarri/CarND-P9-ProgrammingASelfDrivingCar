@@ -4,10 +4,10 @@
 ## MK
 
 ## Individual Submission
-
 Name: Madhav Karri
 e-mail: karrima@clarkson.edu
 
+#
 Overview
 
 A system integration project to drive Carla, the Udacity self-driving car, around a test track. For this project, Robot Operating System (ROS) was utilized to implement core functionality of the autonomous vehicle system: traffic light detection, control, and waypoint following. 
