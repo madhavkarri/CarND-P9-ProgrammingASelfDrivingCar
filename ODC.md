@@ -1,5 +1,4 @@
-# **Self-Driving Car**
-# **Capstone Project: Programming A Self Driving Car**
+# **Project: Object Detection and Classification**
 
 ## MK
 
