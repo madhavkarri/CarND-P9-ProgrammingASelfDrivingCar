@@ -3,11 +3,6 @@
 
 ## MK
 
-## Individual Submission
-Name: Madhav Karri
-
-e-mail: ???
-
 #
 Overview
 
