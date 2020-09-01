@@ -8,7 +8,7 @@ Others who would like to either replicate or use a modified version of the below
 
 Overview
 
-Discussion and details about the Object Detection and Classification performed as part of the Capstone Project: Programming A Self Driving Car.
+Discussion and details about the Object Detection and Classification performed as part of the Project: Programming A Self Driving Car.
 
 As the car traverses along the test track inside the simulator, it has to detect traffic-lights and classify the light state of the detected traffic-light. This is performed using images from the front camera. Depending on the light state, the car stops at the traffic-light stop-line if it is "Red" or moves forward if it is either "Green or Yellow".
 
