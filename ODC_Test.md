@@ -1,5 +1,5 @@
 # **Self-Driving Car**
-# **Capstone Project: Programming A Self Driving Car**
+# **Project: Programming A Self Driving Car**
 
 ## MK
 
